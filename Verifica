@@ -1,10 +1,13 @@
+//GS - il file dovrebbe avere estensione .dsp
+//GS - il programma non compila perché alcune righe di commento non sono attivate
+
 // la sintasi sottrativa è un modello di sintasi del suono. Dove si utilizza un filtro per sottrarre e modulare le bande del suono.
 //La sintasi sottrattiva comprende: spettogramma, sonogramma e una forma d'onda. Lo spettogramma serve per vedere la frequenza nell'ampiezza;
-il sonogramma serve per analizzare la frequenza che si muove nel tempo; la forma d'onda serve per vedere l'ampiezza che sio muove nel tempo. 
+//GS MANCAVA COMMENTO - il sonogramma serve per analizzare la frequenza che si muove nel tempo; la forma d'onda serve per vedere l'ampiezza che sio muove nel tempo. 
 //L'unico capace di analizzare il sonogramma è "GLISSANDO" analizza la variazione della frequenza in un intervallo di tempo. 
 // White noise è un suono che ha tutte le frequenze e tutte le ampiezze. 
 // Ci sono due filtri: filtro passa bassa(LOWPASS) che elimina le frequenze alte, filtro passa alta(HIGHTPASS)che elimina le frequenze alte; 
-tali filtri fanno passare le frequenze rimanenti dall'analizzazione fatta.
+//GS MANCAVA COMMENTO - tali filtri fanno passare le frequenze rimanenti dall'analizzazione fatta.
 
 import("stdfaust.lib");
 process= fi.lowpass (order,fcut) : fi.highpass(order,fcut);
