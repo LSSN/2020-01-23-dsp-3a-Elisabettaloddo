@@ -1,6 +1,8 @@
 //GS - il file dovrebbe avere estensione .dsp
 //GS - il programma non compila perché alcune righe di commento non sono attivate
 
+//GS - SI SCRIVE E LEGGE SINTESI, non sintasi, maledizione! Sottrattiva, con due T!
+
 // la sintasi sottrativa è un modello di sintasi del suono. Dove si utilizza un filtro per sottrarre e modulare le bande del suono.
 //La sintasi sottrattiva comprende: spettogramma, sonogramma e una forma d'onda. Lo spettogramma serve per vedere la frequenza nell'ampiezza;
 //GS MANCAVA COMMENTO - il sonogramma serve per analizzare la frequenza che si muove nel tempo; la forma d'onda serve per vedere l'ampiezza che sio muove nel tempo. 
